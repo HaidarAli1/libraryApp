@@ -14,3 +14,8 @@ function addNewBookToLibrary (title, author, numberOfPages, haveRead) {
     const book = new Book(title, author, numberOfPages, haveRead);
     myLibrary.push(book);
 }
+
+
+function bookDisplay () {
+    
+}
