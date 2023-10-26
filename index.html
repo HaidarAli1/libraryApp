@@ -9,20 +9,20 @@
 </head>
 <body>
     <div class="header">
-        <h1>Library</h1>
+        <h1>LIBRARY</h1>
         <button class="newBookButton">+</button>
     </div>
 
     <form action="#" class="form">
         <label for="title">Title:</label>
-        <input type="text" id="title">
+        <input type="text" id="title" placeholder="e.g Harry Potter">
         <label for="author">Author:</label>
-        <input type="text" id="author">
+        <input type="text" id="author" placeholder="e.g J.K Rowling">
         <label for="numberOfPages">Number Of Pages:</label>
-        <input type="number" id="numberOfPages">
+        <input type="number" id="numberOfPages" min="0" placeholder="e.g. 150">
         <label for="haveRead">Have you read it?</label>
-        <input type="checkbox" id="haveRead" name="read">
-        <button type="submit"></button>
+        <input type="checkbox" id="haveRead" name="read" checked="checked">
+        <button type="submit">SUBMIT</button>
     </form>
 
     <div class="viewBooks"></div>

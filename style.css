@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 body {
@@ -11,9 +12,8 @@ body {
 
 
 .header {
-    background-color: #4d0000;
+    background-color: lightgrey;
     padding: 15px;
-    color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -24,17 +24,52 @@ body {
     font-weight: bolder;
     padding-left: 5px;
     padding-right: 5px;
-    border: solid 1px white;
-    border-radius: 5px;
-}
-
-.newBookButton:hover {
-    background-color: #960606;
+    border: solid 2.5px black;
+    border-radius: 25%;
 }
 
 .footer {
-    background-color: #4d0000;
-    color: white;
+    background-color: lightgrey;
     padding: 10px;
     margin-top: auto;
+}
+
+form {
+    box-sizing: border-box;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px black;
+}
+
+input {
+    display:block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    font-family: inherit;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+input[type=checkbox] {
+    position: relative;
+    margin: 5px 0;
+    margin-left: 30%;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    display: inline;
+}
+
+button[type=submit] {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 7.5px;
+    color: white;
+    background-color: #24a0ed;
+    border-radius: 5px;
+    border-color: #24a0ed;
 }
